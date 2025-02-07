@@ -9,7 +9,7 @@ pip install statscan-wrapper
 
 ## Usage
 
-python
+```python
 from statscan_wrapper import get_table
 Get Labour Force Survey data in English
 df = get_table("14-10-0287")
@@ -17,7 +17,7 @@ Get data in French
 df_fr = get_table("14-10-0287", language="fra")
 Use custom cache directory
 df = get_table("14-10-0287", cache_dir="/tmp/statscan")
-
+```
 
 ## Features
 
